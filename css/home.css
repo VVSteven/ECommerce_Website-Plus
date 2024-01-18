@@ -1,0 +1,35 @@
+#right-row {
+    background-color: #916953;
+} 
+
+body {
+    overflow: hidden;
+    margin: 0;
+}
+
+.container-fluid {
+    width: 100%;
+    height:  100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+  /* Custom styles for the sliding image */
+  .sliding-image {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px 20px 0px;
+  }
+
+  @keyframes conveyorBelt {
+    0% {
+      transform: translateY(0);
+    }
+    to{
+        transform: translateY(-100%);
+    }
+ }
+
+ 
