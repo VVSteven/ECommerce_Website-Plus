@@ -3,7 +3,7 @@ const furnitureDataArray = [
     name: "Rockfall Marble Oval Dining Table",
     weight: 321,
     price: 2899,
-    color: "WHITE",
+    color: "Marbel White",
     sku: "3460574",
     shipping: 579,
     returns: "no returns!!!",
