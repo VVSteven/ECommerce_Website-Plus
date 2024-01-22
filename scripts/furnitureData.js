@@ -6,7 +6,6 @@ const furnitureDataArray = [
     color: "Marbel White",
     sku: "3460574",
     shipping: 579,
-    returns: "no returns!!!",
     description:
       "Sculptural in its appeal, Rockfall features an ivory marble top resting on legs made of sturdy iron, finished in a monochromatic palette that pairs beautifully with anything. It's a modern, minimalist piece anchors dining areas with quiet, confident flair.",
     dimensions: '78" w x 38" d x 30.5" h',
