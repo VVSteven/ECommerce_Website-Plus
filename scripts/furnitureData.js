@@ -36,11 +36,11 @@ const furnitureDataArray = [
   },
   {
     name: "Reed Extending Dining Table",
-    weight: ,
+    weight: "250",
     price: "1,699",
     color: "BROWN",
     sku: "1112845",
-    shipping: ,
+    shipping: "340",
     returns: "You can return eligible items within 30 days of receiving an order. Made-to-order items are not eligible.",
     description:
       "Substantial cuts of sustainably sourced mango wood frame Reed's minimalist silhouette. The modern look has a rustic feel - through-tenon joints let you see the handcrafted technique and attention to detail.",
@@ -75,11 +75,11 @@ const furnitureDataArray = [
   },
   {
     name: "Reed Extending Dining Table",
-    weight: ,
+    weight: "250",
     price: "999",
     color: "BLACK",
     sku: "3398329",
-    shipping: ,
+    shipping: "200",
     returns: "You can return eligible items within 30 days of receiving an order. Made-to-order items are not eligible.",
     description:
       "Substantial cuts of sustainably sourced mango wood frame Reed's minimalist silhouette. The modern look has a rustic feel - through-tenon joints let you see the handcrafted technique and attention to detail.",
@@ -117,7 +117,7 @@ const furnitureDataArray = [
     price: "2,399",
     color: "TAN",
     sku: "234675",
-    shipping: ,
+    shipping: "480",
     returns: "You can return eligible items within 30 days of receiving an order. Made-to-order items are not eligible.",
     description:
       "From restoring forests to creating healthier homes, the products you purchase make a difference at home and beyond.",
@@ -154,7 +154,7 @@ const furnitureDataArray = [
     price: "2,399",
     color: "TAN",
     sku: "221513",
-    shipping: ,
+    shipping: "480",
     returns: "You can return eligible items within 30 days of receiving an order. Made-to-order items are not eligible.",
     description:
       "Create the ultimate gathering space with our extendable table. Expertly crafted from a combination of woods, its substantial without taking up too much space. The legs are thoughtfully crafted to minimize the amount of floor it occupies, allowing for more comfortable leg room. With the ability to increase or decrease its seating capacity, this piece truly works for spaces of all sizes and styles. Top with our lazy Susan to create revolving service for food, condiments, beverages, and more.",
@@ -186,7 +186,7 @@ const furnitureDataArray = [
     price: "1,399",
     color: "BEIGE",
     sku: "6299387",
-    shipping: ,
+    shipping: "280",
     returns: "You can return eligible items within 30 days of receiving an order. Made-to-order items are not eligible.",
     description:
       "A salute to minimalist design, our Cayman Collection has a timeless look that's warm and welcoming. Crafted of solid wood, the dimensional finish adds character and warmth to each piece. This extending dining table features a modern contrast between clean lines and gently rounded edges.",
