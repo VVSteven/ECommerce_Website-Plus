@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="css/template.css">
     <script src="scripts/furnitureData.js"></script>
     <script src="scripts/furniture.js"></script>
+    <script src="scripts/loadfurniture.js"></script>
+
 </head>
 <body>
     <header>
@@ -153,16 +155,14 @@
                             </ul>
                         </div>
                         <div class="col-md-6 details m-0 p-5 border-0">
-                            <h1 class="product-title text-primary-emphasis mb-1">Rockfall Marble Oval Dining Table</h1>
-                            <h6 class="small-print mb-3">SKU:<span id="SKUNum">3460574</span></h6>
-                            <h5 class="mt-4 mb-2">Marbel White</h5>
-                            <h5 class="mb-3">
-                                Sculptural in its appeal, Rockfall features an ivory marble top resting on legs made of sturdy iron, finished in a monochromatic palette that pairs beautifully with anything. It's a modern, minimalist piece that anchors dining areas with quiet, confident flair.
-                            </h5>
-                            <h5 class="mb-2">$<span id="price">2899</span> + $<span id="shippingNumber">579</span> <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"  fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
+                            <h1 class="product-title text-primary-emphasis mb-1" id="productName"></h1>
+                            <h6 class="small-print mb-3">SKU:<span id="SKUNum"></span></h6>
+                            <h5 class="mt-4 mb-2" id="productColor"></h5>
+                            <h5 class="mb-3" id="productDescription"></h5>
+                            <h5 class="mb-2">$<span id="price"></span> + $<span id="shipping"></span> <span><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"  fill="currentColor" class="bi bi-truck" viewBox="0 0 16 16">
                               <path d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2"/>
                             </svg></span></span></span></h5>
-                            <h6>Pay as low as $<span id="crazyNum">333</span>/month or 30% APR with <span> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Affirm_logo.svg/2560px-Affirm_logo.svg.png" style="padding: 0px 0px 12px 0px;" width="55" alt=""></span> or <span><img src="https://business.afterpay.com/rs/539-RJA-633/images/AP_logo_badge_6328x2204_blackmint_jpg.jpg" style="padding: 0px 0px 5px 0px;" width="70" alt=""></span>. <ins>Prequalify Now.</ins> </h6>
+                            <h6>Pay as low as $<span id="financeNum">333</span>/month or 30% APR with <span> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Affirm_logo.svg/2560px-Affirm_logo.svg.png" style="padding: 0px 0px 12px 0px;" width="55" alt=""></span> or <span><img src="https://business.afterpay.com/rs/539-RJA-633/images/AP_logo_badge_6328x2204_blackmint_jpg.jpg" style="padding: 0px 0px 5px 0px;" width="70" alt=""></span>. <ins>Prequalify Now.</ins> </h6>
                             <div class="my-3">
                                 <button class="btn btn-dark p-2" style="width: 500px;" type="button">Add To Cart</button>
                             </div>
@@ -214,7 +214,7 @@
               <div class="row">
                 <div class="col-6 p-5">
                 <h4  class="mb-5 text-primary-emphasis">Construction</h4>
-                <ul>
+                <ul id="productConstruction">
                     <li>To protect finish, do not apply abrasives or household cleaners, dust with soft dry cloth.</li>
                     <li>Always use coasters, pads, cloth, or felt to protect furniture surface.</li>
                     <li>"Wipe up spills immediately."</li>
@@ -234,7 +234,7 @@
                 </div>
                 <div class="col-6 p-5">
                   <h4 class="mb-5 text-primary-emphasis">Care</h4>
-                  <ul>
+                  <ul id="productCare">
                       <li>"Expertly crafted from solid marble and iron in a Cream finish."</li>
                       <li>"Seats 6."</li>
                       <li>"Adjustable levelers provide stability on uneven surfaces."</li>
@@ -247,7 +247,7 @@
                 <div class="row">
                   <div class="col-6 p-5">
                     <h4 class="mb-5 pt-2 text-primary-emphasis">Assembly</h4>
-                    <ul>
+                    <ul id="productAssembly">
                       <li>White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team.</li>
                       <li>Includes packaging removal and recycling.</li>
                       <li>Fee varies by location and order total.</li>

@@ -1,5 +1,6 @@
 const furnitureDataArray = [
   {
+    id:1,
     name: "Rockfall Marble Oval Dining Table",
     weight: "321 Ibs",
     price: "2899",
@@ -35,9 +36,10 @@ const furnitureDataArray = [
     ],
   },
   {
+    id:2,
     name: "Reed Extending Dining Table",
     weight: "250",
-    price: "1,699",
+    price: "1699",
     color: "BROWN",
     sku: "1112845",
     shipping: "340",
@@ -74,6 +76,7 @@ const furnitureDataArray = [
     ],
   },
   {
+    id:3,
     name: "Reed Extending Dining Table",
     weight: "250",
     price: "999",
@@ -112,9 +115,10 @@ const furnitureDataArray = [
     ],
   },
   {
+    id:4,
     name: "Heritage Farmhouse Pedestal Extending Dining Table",
     weight: "228 Ibs",
-    price: "2,399",
+    price: "2399",
     color: "TAN",
     sku: "234675",
     shipping: "480",
@@ -149,9 +153,10 @@ const furnitureDataArray = [
     ],
   },
   {
+    id:5,
     name: "Modern Farmhouse Round Pedestal Extending Dining Table",
     weight: "214 Ibs",
-    price: "2,399",
+    price: "2399",
     color: "TAN",
     sku: "221513",
     shipping: "480",
@@ -181,9 +186,10 @@ const furnitureDataArray = [
     ],
   },
   {
+    id:6,
     name: "Cayman Round Pedestal Extending Dining Table",
     weight: "170 Ibs",
-    price: "1,399",
+    price: "1399",
     color: "BEIGE",
     sku: "6299387",
     shipping: "280",
