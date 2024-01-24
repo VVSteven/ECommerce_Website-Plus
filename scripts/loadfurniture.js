@@ -40,7 +40,9 @@ function loadInformation(furnitureInformation) {
     loadConstruction(furnitureInformation)
     loadCare(furnitureInformation)
     loadAssembly(furnitureInformation)
-    loadImages(furnitureInformation)
+    loadFeatureImages(furnitureInformation)
+    loadThumbnailImages(furnitureInformation)
+    loadNavImages(furnitureInformation)
 }
 function loadConstruction(furnitureInformation) {
 
@@ -68,16 +70,48 @@ function loadCare(furnitureInformation) {
 
 function loadAssembly(furnitureInformation){
     const assemblyDiv = document.getElementById("productAssembly")
+    assemblyDiv.innerText = furnitureInformation.assembly;
+}
+function loadFeatureImages(furnitureInformation) {
+    const imageContainer = document.getElementById("featureImages");
+    const productImages = imageContainer.querySelectorAll('img');
 
-    furnitureInformation.assembly.forEach(item => {
-        const listItem = document.createElement("li");
-        listItem.innerText = item;
-        assemblyDiv.appendChild(listItem);
+    productImages.forEach((image, index) => {
+        if (index < furnitureInformation.images.length) {
+            image.src = furnitureInformation.images[index];
+            console.log(`Image ${index + 1} source updated: ${image.src}`);
+        } else {
+            console.warn(`No image URL found for Image ${index + 1}`);
+        }
+    });
+}
+function loadThumbnailImages(furnitureInformation) {
+    const imageContainer = document.getElementById("thumbnailImages");
+    const productImages = imageContainer.querySelectorAll('img');
+
+    productImages.forEach((image, index) => {
+        if (index < furnitureInformation.images.length) {
+            image.src = furnitureInformation.images[index];
+            console.log(`Image ${index + 1} source updated: ${image.src}`);
+        } else {
+            console.warn(`No image URL found for Image ${index + 1}`);
+        }
     });
 }
 
-function loadImages(furnitureInformation){
-    
+function loadNavImages(furnitureInformation) {
+    const imageContainer = document.getElementById("additionalInformation");
+    const productImages = imageContainer.querySelectorAll('img');
+
+    productImages.forEach((image, index) => {
+        if (index < furnitureInformation.images.length) {
+            image.src = furnitureInformation.images[index];
+            console.log(`Image ${index + 1} source updated: ${image.src}`);
+        } else {
+            console.warn(`No image URL found for Image ${index + 1}`);
+        }
+    });
 }
+
 
 

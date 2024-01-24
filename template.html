@@ -10,7 +10,7 @@
     <script src="scripts/furnitureData.js"></script>
     <script src="scripts/furniture.js"></script>
     <script src="scripts/loadfurniture.js"></script>
-
+    <script src="scripts/createProductPage.js"></script>
 </head>
 <body>
     <header>
@@ -138,20 +138,20 @@
                 <div class="container-fluid">
                     <div class="row wrapper">
                         <div class="col-md-6 preview">
-                            <div class="tab-content main-image border-0">
-                              <div class="tab-pane active border-0" id="pic-1"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-c.jpg" alt="Product Preview 1" height="501" width="558" /></div>
-                              <div class="tab-pane border-0" id="pic-2"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 2" /></div>
-                              <div class="tab-pane border-0" id="pic-3"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 3" /></div>
-                              <div class="tab-pane border-0" id="pic-4"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 4" /></div>
-                              <div class="tab-pane border-0" id="pic-5"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 5" /></div>
+                            <div class="tab-content main-image border-0" id="featureImages">
+                              <div class="tab-pane active border-0" id="pic1"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-c.jpg" alt="Product Preview 1" height="501" width="558" /></div>
+                              <div class="tab-pane border-0" id="pic2"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 2" /></div>
+                              <div class="tab-pane border-0" id="pic3"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 3" /></div>
+                              <div class="tab-pane border-0" id="pic4"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 4" /></div>
+                              <div class="tab-pane border-0" id="pic5"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-l.jpg" width="558" height="501" alt="Product Preview 5" /></div>
                               
                             </div>
-                            <ul class="nav nav-tabs preview-thumbnail border-0 mt-3">
-                                <li class="nav-item"><a class="nav-link active border-0" data-bs-target="#pic-1" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-c.jpg" height="89" width="89" alt="Thumbnail 1"/></a></li>
-                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic-2" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 2" /></a></li>
-                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic-3" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 3" /></a></li>
-                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic-4" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 4" /></a></li>
-                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic-5" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 5" /></a></li>
+                            <ul class="nav nav-tabs preview-thumbnail border-0 mt-3" id="thumbnailImages">
+                                <li class="nav-item"><a class="nav-link active border-0" data-bs-target="#pic1" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-c.jpg" height="89" width="89" alt="Thumbnail 1"/></a></li>
+                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic2" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 2" /></a></li>
+                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic3" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 3" /></a></li>
+                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic4" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 4" /></a></li>
+                                <li class="nav-item"><a class="nav-link border-0" data-bs-target="#pic5" data-bs-toggle="tab"><img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-l.jpg" height="89" width="89" alt="Thumbnail 5" /></a></li>
                             </ul>
                         </div>
                         <div class="col-md-6 details m-0 p-5 border-0">
@@ -209,7 +209,8 @@
               </ul>
             </nav> 
           </div>
-          <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" class="scrollspy bg-body-tertiary p-3 rounded-2" tabindex="0" id="additionalInformation">
+          <div data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%" class="scrollspy bg-body-tertiary p-3 rounded-2" tabindex="0">
+            <div id="additionalInformation">
             <div class="container p-5" id="construction">
               <div class="row">
                 <div class="col-6 p-5">
@@ -247,11 +248,8 @@
                 <div class="row">
                   <div class="col-6 p-5">
                     <h4 class="mb-5 pt-2 text-primary-emphasis">Assembly</h4>
-                    <ul id="productAssembly">
-                      <li>White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team.</li>
-                      <li>Includes packaging removal and recycling.</li>
-                      <li>Fee varies by location and order total.</li>
-                  </ul>
+                    <p id="productAssembly">
+                    </p>
                   </div>
                   <div class="col-6">
                     <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-c.jpg" width="600" alt="">
@@ -283,6 +281,7 @@
                 <p>You can return eligible items within 30 seconds of receiving an order. Made-to-order items are not eligible.</p>
               </div>
           </div>
+        </div>
           <div class="container my-5 p-5" id="moreProducts">
             <h4 class="text-primary-emphasis p-5">You'll Love These</h4>
             <div id="carouselCaptions" class="carousel carousel-dark slide my-5">
@@ -295,22 +294,10 @@
                 <div class="carousel-item active">
                   <div class="row">
                     <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202335/0009/reed-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 1">
+                      <img id="product2" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202335/0009/reed-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 1">
                     </div>
                     <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202330/0440/reed-extending-dining-table-3-xl.jpg" class="d-block w-100" alt="Product 2">
-                    </div>
-                  </div>
-                  <div class="carousel-caption d-none d-md-block">
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div class="row">
-                    <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202333/0110/heritage-farmhouse-extending-pedestal-dining-table-xl.jpg" class="d-block w-100" alt="Product 3">
-                    </div>
-                    <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202326/0153/modern-farmhouse-round-pedestal-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 4">
+                      <img id="product3" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202330/0440/reed-extending-dining-table-3-xl.jpg" class="d-block w-100" alt="Product 2">
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
@@ -319,10 +306,22 @@
                 <div class="carousel-item">
                   <div class="row">
                     <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202321/0066/cayman-round-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 5">
+                      <img id="product4" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202333/0110/heritage-farmhouse-extending-pedestal-dining-table-xl.jpg" class="d-block w-100" alt="Product 3">
                     </div>
                     <div class="col-md-6">
-                      <img src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202323/0115/rockfall-marble-oval-dining-table-o.jpg" class="d-block w-100" alt="Product 6">
+                      <img id="product5" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202326/0153/modern-farmhouse-round-pedestal-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 4">
+                    </div>
+                  </div>
+                  <div class="carousel-caption d-none d-md-block">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <img id="product4" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202321/0066/cayman-round-extending-dining-table-xl.jpg" class="d-block w-100" alt="Product 5">
+                    </div>
+                    <div class="col-md-6">
+                      <img id="product1" src="https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202323/0115/rockfall-marble-oval-dining-table-o.jpg" class="d-block w-100" alt="Product 6">
                     </div>
                   </div>
                   <div class="carousel-caption d-none d-md-block">
