@@ -1,0 +1,75 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Rosarivo&display=swap');
+
+#right-row {
+  background-color: #6a717b;
+}
+
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#slogan-box{
+  margin-top: 225px;
+  z-index: 1;
+  color: white;
+  font-size: 150px;
+  font-family: 'Rosarivo', cursive;
+}
+
+#bottom-right-logo {
+  size: 20px;
+}
+/* Custom styles for the sliding image */
+.sliding-image {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 20px 0px;
+}
+
+.sliding-images {
+  animation-duration: 30s; /* Adjust the duration as needed */
+}
+
+/* Start the animation for the original and cloned images */
+.sliding-images {
+  animation: conveyorBelt 30s linear infinite;
+}
+
+/* Set the animation duration for the right container's cloned images */
+#scrollable-container-right .sliding-images {
+  animation-duration: 35s; /* Adjust the duration as needed */
+}
+
+/* Start the animation for the right container's cloned images */
+#scrollable-container-right .sliding-images {
+  animation: conveyorBelt 35s linear infinite;
+}
+
+@keyframes conveyorBelt {
+  0% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+/* Pause the animation on hover */
+#scrollable-container-left:hover .sliding-images {
+  animation-play-state: paused;
+}
+
+#scrollable-container-right:hover .sliding-images {
+  animation-play-state: paused;
+}
