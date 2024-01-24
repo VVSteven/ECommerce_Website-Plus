@@ -1,5 +1,6 @@
 const furnitureDataArray = [
   {
+    id:1,
     name: "Rockfall Marble Oval Dining Table",
     weight: "321 Ibs",
     price: "2899",
@@ -26,18 +27,19 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-1-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-r.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-1-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0163/rockfall-marble-oval-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0162/rockfall-marble-oval-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0159/rockfall-marble-oval-dining-table-1-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202349/0161/rockfall-marble-oval-dining-table-l.jpg",
     ],
   },
   {
+    id:2,
     name: "Reed Extending Dining Table",
     weight: "250",
-    price: "1,699",
+    price: "1699",
     color: "BROWN",
     sku: "1112845",
     shipping: "340",
@@ -66,14 +68,16 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202336/0494/reed-extending-dining-table-3-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202340/0209/reed-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202335/0013/reed-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202335/0006/reed-extending-dining-table-r.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202336/0494/reed-extending-dining-table-3-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202340/0209/reed-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202335/0013/reed-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202335/0006/reed-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202337/0032/reed-extending-dining-table-l.jpg"
       
     ],
   },
   {
+    id:3,
     name: "Reed Extending Dining Table",
     weight: "250",
     price: "999",
@@ -105,16 +109,18 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202336/0499/reed-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-1-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-3-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-2-r.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202336/0499/reed-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-1-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-3-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0440/reed-extending-dining-table-2-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202332/0804/reed-extending-dining-table-xl.jpg"
     ],
   },
   {
+    id:4,
     name: "Heritage Farmhouse Pedestal Extending Dining Table",
     weight: "228 Ibs",
-    price: "2,399",
+    price: "2399",
     color: "TAN",
     sku: "234675",
     shipping: "480",
@@ -141,17 +147,18 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202402/0036/heritage-farmhouse-extending-pedestal-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202402/0029/heritage-farmhouse-extending-pedestal-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202333/0110/heritage-farmhouse-extending-pedestal-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0349/heritage-farmhouse-extending-pedestal-dining-table-1-r.jpg",
-      
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202402/0036/heritage-farmhouse-extending-pedestal-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202402/0029/heritage-farmhouse-extending-pedestal-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202333/0110/heritage-farmhouse-extending-pedestal-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202330/0349/heritage-farmhouse-extending-pedestal-dining-table-1-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202333/0111/heritage-farmhouse-extending-pedestal-dining-table-1-l.jpg"
     ],
   },
   {
+    id:5,
     name: "Modern Farmhouse Round Pedestal Extending Dining Table",
     weight: "214 Ibs",
-    price: "2,399",
+    price: "2399",
     color: "TAN",
     sku: "221513",
     shipping: "480",
@@ -174,16 +181,20 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202352/0413/img21r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202352/0012/modern-farmhouse-round-pedestal-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202352/0012/modern-farmhouse-round-pedestal-extending-dining-table-1-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202334/0044/modern-farmhouse-round-pedestal-extending-dining-table-r.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202352/0413/img21l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202352/0012/modern-farmhouse-round-pedestal-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/ab/images/dp/wcm/202334/0044/modern-farmhouse-round-pedestal-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202351/0068/modern-farmhouse-round-pedestal-extending-dining-table-xl.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202351/0385/modern-farmhouse-round-pedestal-extending-dining-table-xl.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202351/0386/modern-farmhouse-round-pedestal-extending-dining-table-xl.jpg"
+
     ],
   },
   {
+    id:6,
     name: "Cayman Round Pedestal Extending Dining Table",
     weight: "170 Ibs",
-    price: "1,399",
+    price: "1399",
     color: "BEIGE",
     sku: "6299387",
     shipping: "280",
@@ -208,10 +219,11 @@ const furnitureDataArray = [
     assembly:
       "White Glove Service: Items are delivered to your room of choice by appointment, then unpacked and fully assembled by a skilled two-person team. Includes packaging removal and recycling. Fee varies by location and order total.",
     images: [
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0124/cayman-round-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0125/cayman-round-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0127/cayman-round-extending-dining-table-r.jpg",
-      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0118/cayman-round-extending-dining-table-r.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0124/cayman-round-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0125/cayman-round-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0127/cayman-round-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202347/0118/cayman-round-extending-dining-table-l.jpg",
+      "https://assets.pbimgs.com/pbimgs/rk/images/dp/wcm/202349/0166/cayman-round-pedestal-extending-dining-table-l.jpg"
     ],
   },
 ];
