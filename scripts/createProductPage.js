@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
       if (selectedItem) {
         // Create a link with query parameters
-        const link = `template.html?sku=${selectedItem.sku}`;
+        const link = `product.html?sku=${selectedItem.sku}`;
 
         // Navigate to the link
         window.location.href = link;
