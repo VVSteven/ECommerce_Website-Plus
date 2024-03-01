@@ -10,7 +10,7 @@ This project is a website for an e-commerce platform that sells various products
 1. **Homepage (`homepage.html`)**:
    - Provides an overview of the website and its offerings.
    - Includes a navigation bar for easy access to other sections.
-![Castles Hompage](images/Castles_Homepage.gif)
+   ![Castles Hompage](images/Castles_Homepage.gif)
 
 2. **Products Page (`products.html`)**:
    - Displays a list of available products.
@@ -49,12 +49,11 @@ This project is a website for an e-commerce platform that sells various products
 - **JavaScript**: Programming language for adding interactive elements and functionality.
 - **Font Awesome**: Icon toolkit used for adding scalable vector icons to the website.
 
-##Acknowledgments
-####**[Cesar Miranda](https://github.com/CodingCZR)**:
-Recognized for his invaluable contributions of ideas and code during the development of the homepage, enhancing its functionality and design.
-####**[Teala Bradley](https://github.com/Teala-B)**:
-Acknowledged for her pivotal role in curating and managing the array of products, ensuring a diverse and appealing selection for users.
-####**[Juan Rojas](https://github.com/0zoneGG)**:
+## Acknowledgments
 
-Commended for his attention to detail and dedication to making crucial improvements, no matter how small, which greatly enhanced the overall user experience.
-
+- **[Cesar Miranda](https://github.com/CodingCZR)**:
+  - Recognized for his invaluable contributions of ideas and code during the development of the homepage, enhancing its functionality and design.
+- **[Teala Bradley](https://github.com/Teala-B)**:
+  - Acknowledged for her pivotal role in curating and managing the array of products, ensuring a diverse and appealing selection for users.
+- **[Juan Rojas](https://github.com/0zoneGG)**:
+  - Commended for his attention to detail and dedication to making crucial improvements, no matter how small, which greatly enhanced the overall user experience.
